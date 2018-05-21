@@ -25,7 +25,18 @@ repositories {
 
 
 dependencies {
+	// actuator ; for application metrics
 	compile('org.springframework.boot:spring-boot-starter-actuator')
+
+	// actuator ; for application metrics
 	compile('org.springframework.boot:spring-boot-starter-web')
+
+	// actuator ; for application metrics
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
+	// in memory datenbank
+	compile('com.h2database:h2')
+
+	// test ; for tests
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
